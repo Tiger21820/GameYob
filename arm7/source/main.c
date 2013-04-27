@@ -43,12 +43,14 @@ extern bool sleepIsEnabled;
 volatile SharedData* sharedData;
 
 void VblankHandler(void) {
+    /*
     if (sharedData->scalingOn) {
         while (!sharedData->scaleTransferReady);
         // Copy from vram bank D to C
         dmaCopyWordsAsynch(3, (u16*)0x06000000+24*256, (u16*)0x06020000, 256*144*2);
         sharedData->scaleTransferReady = 0;
     }
+    */
     Wifi_Update();
 }
 
@@ -156,8 +158,10 @@ int main() {
 
     fifoInit();
 
+    /*
     while (!fifoCheckAddress(FIFO_USER_03));
     sharedData = (SharedData*)fifoGetAddress(FIFO_USER_03);
+    */
 
     SetYtrigger(80);
 

@@ -137,7 +137,7 @@ int main(int argc, char* argv[])
 
 
     sharedData = (SharedData*)memUncached(malloc(sizeof(SharedData)));
-    fifoSendAddress(FIFO_USER_03, (void*)memUncached((void*)sharedData));
+    //fifoSendAddress(FIFO_USER_03, (void*)memUncached((void*)sharedData));
 
 
     time(&rawTime);
