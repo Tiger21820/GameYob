@@ -525,7 +525,7 @@ end:
 }
 
 void updateScreens() {
-    //swiWaitForVBlank();
+    swiWaitForVBlank();
 
     if (!consoleOn && scaleMode != 0) {
         sharedData->scalingOn = 1;
