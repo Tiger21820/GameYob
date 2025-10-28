@@ -1,4 +1,4 @@
-## Info about GameYob BranchesZZZ
+## Info about GameYob Branches
 
 The master branch of this repository (https://github.com/Drenn1/GameYob)
 currently contains the source for an unfinished overhaul of GameYob after
