@@ -1,7 +1,7 @@
 Version 0.5:
 
 - Added Gameboy Printer emulation
-- Added GBS playback feature
+- Added GBS playback feature2
 - Added "scale" button
 - Semi-overhauled menu: now colorized, and does not interrupt emulation.
 - Improved Super Gameboy emulation
