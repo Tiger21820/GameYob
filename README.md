@@ -18,7 +18,7 @@ a fork can be found here: https://github.com/ZopharsDomain/GAMEBOYC-3DS-GameYob
 The 3DS version had its own kinks, which means you may still prefer to use the
 DS version even on a 3DS. It is recommended to install it using the DSiWare CIA
 file provided with the newer releases of GameYob DS.
-h
+
 ## Features
 
 - Gameboy, Gameboy Color, Super Gameboy emulation
