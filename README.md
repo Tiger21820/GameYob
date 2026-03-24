@@ -1,6 +1,6 @@
 ## Info about GameYob Branches
 
-The master branch of this repository (https://github.com/Drenn1/GameYob)
+The master branch ojf this repository (https://github.com/Drenn1/GameYob)
 currently contains the source for an unfinished overhaul of GameYob after
 release 0.5. In particular, this overhaul allows for the emulation of multiple
 gameboys, in order to improve wireless link cable emulation by emulating both
